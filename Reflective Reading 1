@@ -1,4 +1,3 @@
-<p>
 Chapter 2 of Pippin Barr’s “The Stuff Games Are Made Of” focuses on rules and their manipulation. 
 He uses the classic game Pong as an example to illustrate his point that a game is just code, and code can be changed, therefore the rules of the game can change to make them completely unrecognizable. 
 I find it to be a great creative exercise. 
@@ -11,4 +10,3 @@ Barr also touches on how mistakes can lead to fresh new features for a game.
 In Fertility Pong, a bug in Pippin’s code allows hundreds of balls to spawn in if one ball hits the edge of a paddle at just the right spot, creating a “Pong Armageddon”. 
 Many ideas spawn from mistakes. Bob Ross believes that there are no mistakes, just happy little accidents. He incorporates those accidents into his art, like how Pippin incorporates them into his Pong versions. Some games are fun because they’re glitchy, buggy, have exploits. 
 They make a game unique!
-</p>
