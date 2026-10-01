@@ -1,0 +1,5 @@
+Week 3
+
+MORE POOOONG!!!
+
+I got to mod my pong. I came up with Grief Pong! It's similiar to Unfair Pong that Pippin spoke about in his book, but with some additions. It's essentially impossible to score against the AI. I removed the scoreboard for the player's side, and replaced it with some pretty Grim text that changes whenever the AI scores a point. I think it's pretty unique!
