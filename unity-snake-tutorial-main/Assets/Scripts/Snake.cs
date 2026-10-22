@@ -64,6 +64,8 @@ public class Snake : MonoBehaviour
             direction = input;
         }
 
+        UpdateHeadRotation();
+
         for (int i = segments.Count - 1; i > 0; i--) {
             segments[i].position = segments[i - 1].position;
         }
@@ -272,5 +274,29 @@ public bool Occupies(int x, int y)
 
         transform.position = position;
     }
+
+    private void UpdateHeadRotation()
+    {
+    float angle = 0f;
+
+    if (direction == Vector2Int.right)
+    {
+        angle = 0f;
+    }
+    else if (direction == Vector2Int.up)
+    {
+        angle = 90f;
+    }
+    else if (direction == Vector2Int.left)
+    {
+        angle = 180f;
+    }
+    else if (direction == Vector2Int.down)
+    {
+        angle = 270f;
+    }
+
+    transform.rotation = Quaternion.Euler(0f, 0f, angle);
+}
 
 }
