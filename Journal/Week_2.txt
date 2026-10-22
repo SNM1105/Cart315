@@ -1,0 +1,5 @@
+Week 2
+
+POOONG!!!
+
+We learned how to built Pong in unity! (mostly). It was an unfinished version where the paddles didn't stay in place and the ball didn't keep its velocity when bouncing, but it's still pretty cooool. Next up, we're modding it!
