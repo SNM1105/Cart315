@@ -65207,7 +65207,7 @@ MonoBehaviour:
   accelerateSound: {fileID: 8300000, guid: 6e98c2f9094e186489c4e0e7c3617a86, type: 3}
   drivingSound: {fileID: 8300000, guid: 86af6b21658e17f4fafda223bc0762f7, type: 3}
   decelerateSound: {fileID: 8300000, guid: e6f7cc3253d360346835d466f82cc5cf, type: 3}
-  engineVolume: 0.172
+  engineVolume: 0.353
 --- !u!114 &2729281214152228935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65221,7 +65221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CarCrashAudio
   crashSound: {fileID: 8300000, guid: 9885aeeb76b6eda4b994713bb0d72e97, type: 3}
-  crashVolume: 1
+  crashVolume: 0.628
   minimumSpeed: 5
   crashCooldown: 1
 --- !u!1001 &2729281214182533258
