@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Walking-Sim.slnx"
+    "dotnet.defaultSolution": "Drunk Driving.slnx"
 }
