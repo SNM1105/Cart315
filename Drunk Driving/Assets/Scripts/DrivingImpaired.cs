@@ -45,32 +45,37 @@ public class DrivingImpairment : MonoBehaviour
         Recover();
     }
 
-    void Drink()
+    
+void Drink()
+{
+    if (drinkAnimation != null &&
+        drinkAnimation.IsAnimating)
     {
-        // Prevent overlapping animations
-        if (drinkAnimation != null &&
-            drinkAnimation.IsAnimating)
-        {
-            return;
-        }
-    
-        // Play the can animation
-        if (drinkAnimation != null)
-        {
-            drinkAnimation.PlayDrinkAnimation();
-        }
-    
-        drinkCount++;
-    
-        impairment = Mathf.Clamp01(
-            impairment + impairmentIncrease
-        );
-    
-        lastDrinkTime = Time.time;
-    
-        Debug.Log("Drinks: " + drinkCount);
-        Debug.Log("Impairment: " + impairment);
+        return;
     }
+
+    if (drinkAnimation != null)
+    {
+        Debug.Log("Starting can animation");
+        drinkAnimation.PlayDrinkAnimation();
+    }
+    else
+    {
+        Debug.LogWarning("Drink Animation is not assigned!");
+    }
+
+    drinkCount++;
+
+    impairment = Mathf.Clamp01(
+        impairment + impairmentIncrease
+    );
+
+    lastDrinkTime = Time.time;
+
+    Debug.Log("Drinks: " + drinkCount);
+    Debug.Log("Impairment: " + impairment);
+}
+
 
     void ApplySwerve()
     {

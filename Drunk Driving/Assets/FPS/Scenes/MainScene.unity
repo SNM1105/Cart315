@@ -24903,7 +24903,7 @@ Transform:
   m_GameObject: {fileID: 906088282}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8, y: -0.3, z: 1}
+  m_LocalPosition: {x: -0.5, y: -0.2, z: 0.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -65453,7 +65453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9a59f096522bba49aa80ec19ce6dd8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DrivingImpairment
-  drinkAnimation: {fileID: 0}
+  drinkAnimation: {fileID: 2729281214152228948}
   impairment: 0
   impairmentIncrease: 0.25
   swerveStrength: 100
@@ -65482,9 +65482,9 @@ MonoBehaviour:
   canOpenSound: {fileID: 0}
   gulpSound: {fileID: 0}
   soundVolume: 0.8
-  hiddenPosition: {x: 0.35, y: -0.65, z: 0.65}
-  raisedPosition: {x: 0.25, y: -0.18, z: 0.55}
-  drinkingPosition: {x: 0.08, y: -0.08, z: 0.35}
+  hiddenPosition: {x: -0.35, y: -0.65, z: 0.65}
+  raisedPosition: {x: -0.25, y: -0.18, z: 0.55}
+  drinkingPosition: {x: -0.08, y: -0.08, z: 0.35}
   raiseDuration: 0.4
   tiltDuration: 0.3
   drinkDuration: 0.8

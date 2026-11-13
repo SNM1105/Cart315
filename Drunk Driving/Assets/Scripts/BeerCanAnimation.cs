@@ -35,17 +35,17 @@ public class DrinkCanAnimation : MonoBehaviour
     public bool IsAnimating { get; private set; }
 
     void Start()
-    {
-        audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.playOnAwake = false;
-        audioSource.spatialBlend = 0f;
-        audioSource.volume = soundVolume;
+{
+    audioSource = gameObject.AddComponent<AudioSource>();
+    audioSource.playOnAwake = false;
+    audioSource.spatialBlend = 0f;
+    audioSource.volume = soundVolume;
 
-        drinkCan.localPosition = hiddenPosition;
-        drinkCan.localRotation = Quaternion.identity;
+    drinkCan.localPosition = raisedPosition;
+    drinkCan.localRotation = Quaternion.identity;
 
-        drinkCan.gameObject.SetActive(false);
-    }
+    drinkCan.gameObject.SetActive(true);
+}
 
     public void PlayDrinkAnimation()
     {
